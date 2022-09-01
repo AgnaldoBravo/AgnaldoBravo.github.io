@@ -1,0 +1,98 @@
+.introdução {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 80px 40px;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 100px;
+    align-items: center; 
+   
+   }
+
+   .introdução h1 {
+    font-size: 72px;
+    line-height: 80px;
+    margin-bottom: 30px;
+    position: relative ;
+   }
+
+   .introdução h1::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url("./IMG/detahes.svg") no-repeat center;
+    position: absolute;
+    top: -10px;
+    left: -45px;
+    z-index: -1;
+}
+
+.introdução p {
+    font-size: 1.5rem;
+    color: #525252;
+
+}
+
+@media (max-width: 1060px) {
+    .introdução h1 {
+    font-size: 56px;
+    line-height: 64px;
+    }
+}
+
+@media (max-width: 860px) {
+    .introdução h1 {
+    font-size: 48px;
+    line-height: 56px;
+    }
+    .introdução {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;        
+    }
+}
+
+@media (max-width: 750px) {
+    .introdução h1 {
+    font-size: 36px;
+    line-height: 44px;
+    }
+    .introdução p {
+        font-size: 1rem;
+        }
+    .introdução h1::before {
+        width: 30px;
+        height: 10px;
+       
+    }
+
+@media (max-width: 560px) {
+    .introdução h1 {
+    font-size: 32px;
+    line-height: 40px;
+    }
+    .introdução { 
+    display: grid;
+    padding-bottom: 0px;
+ }
+    .introdução p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .introdução h1 {
+    font-size: 32px;
+    line-height: 40px;
+    }
+    .introdução img {
+        display: none;
+    }
+    .introdução {
+    font-size: 2rem;
+    grid-template-columns: 1fr;
+    padding: 40px 20px; 
+    }
+    .introdução h1::before {
+        position: initial;
+    }
