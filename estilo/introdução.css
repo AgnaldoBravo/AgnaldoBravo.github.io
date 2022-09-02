@@ -21,7 +21,7 @@
     display: block;
     width: 130px;
     height: 100px;
-    background: url("./IMG/detahes.svg") no-repeat center;
+    background: url("/img/detahes.svg") no-repeat center;
     position: absolute;
     top: -10px;
     left: -45px;
@@ -59,12 +59,12 @@
     }
     .introdução p {
         font-size: 1rem;
-        }
+    }
     .introdução h1::before {
         width: 30px;
         height: 10px;
-       
     }
+}
 
 @media (max-width: 560px) {
     .introdução h1 {
@@ -94,6 +94,6 @@
     padding: 40px 20px; 
     }
     .introdução h1::before {
-     position: initial;
+     position: initial; 
     }
 }
