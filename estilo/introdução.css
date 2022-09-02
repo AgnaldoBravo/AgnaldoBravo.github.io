@@ -94,5 +94,5 @@
     padding: 40px 20px; 
     }
     .introdução h1::before {
-        position: initial;
+     position: initial;
     }
