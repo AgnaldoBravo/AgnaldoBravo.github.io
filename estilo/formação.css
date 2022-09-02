@@ -17,7 +17,7 @@
     display: block;
     width: 130px;
     height: 100px;
-    background: url(img/detahes.svg) no-repeat center;
+    background: url(/img/detahes.svg) no-repeat center;
     position: absolute;
     bottom: -50px;
     left: 20px;
@@ -111,10 +111,10 @@
     }
 
     .cursos h3::before {
-         background: url(img/cursos.svg) no-repeat center; 
+         background: url(/img/cursos.svg) no-repeat center; 
     }
     .idiomas h3::before {
-        background: url(img/idiomas.svg) no-repeat center;
+        background: url(/img/idiomas.svg) no-repeat center;
     }
 
     .formacao-extra li {
